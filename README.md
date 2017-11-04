@@ -27,7 +27,7 @@ The following tools are available:
 
 There are also several Brainfuck and equivalent Ichiglyph sample programs in
 the `examples` directory. The original Brainfuck programs were taken directly
-from (pablojorge's GitHub repo)[https://github.com/pablojorge/brainfuck].
+from [pablojorge's GitHub repo](https://github.com/pablojorge/brainfuck).
 These programs are copyrighted by their respective authors.
 
 ## What is the use of this?
