@@ -9,14 +9,14 @@ instructions of both languages.
 
 | Brainfuck | Ichiglyph |
 | --------- | --------- |
-| >         | ll        |
-| <         | lI        |
-| +         | Il        |
-| -         | II        |
-| .         | 1l        |
-| ,         | 1I        |
-| [         | l1        |
-| ]         | I1        |
+| `>`       | `ll`      |
+| `<`       | `lI`      |
+| `+`       | `Il`      |
+| `-`       | `II`      |
+| `.`       | `1l`      |
+| `,`       | `1I`      |
+| `[`       | `l1`      |
+| `]`       | `I1`      |
 
 The following tools are available:
 
