@@ -18,6 +18,10 @@ instructions of both languages.
 | `[`       | `l1`      |
 | `]`       | `I1`      |
 
+The Ichiglyph language was inspired by a remark by Josefina Mádrová, who
+cleverly noted that using the characters `l`, `I` and `1` in identifiers is
+a bad practice.
+
 The following tools are available:
 
  * [ichiglyph.c](interpreter/ichiglyph/ichiglyph.c): Ichiglyph interpreter

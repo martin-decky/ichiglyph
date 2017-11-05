@@ -47,6 +47,10 @@
  * [         | l1
  * ]         | I1
  *
+ * The Ichiglyph language was inspired by a remark by Josefina Madrova,
+ * who cleverly noted that using the characters l, I and 1 in identifiers
+ * is a bad practice.
+ *
  */
 
 #include <stdio.h>

@@ -34,6 +34,10 @@
  * Note that any characters not representing a Ichiglyph instruction
  * are silently ignored and dropped.
  *
+ * The Ichiglyph language was inspired by a remark by Josefina Madrova,
+ * who cleverly noted that using the characters l, I and 1 in identifiers
+ * is a bad practice.
+ *
  */
 
 #include <stdio.h>
