@@ -41,6 +41,8 @@ mostly just to have fun. However, Ichiglyph programs could be used to
 demonstrate that certain fonts are unsuitable for rendering source code.
 
 ![I and l indistinguishable](examples/hello.png "I and l indistinguishable")
+![l and 1 hardly distinguishable](examples/hello_vsc.png "l and 1 hardly distinguishable")
+![all characters somewhat distinguishable](examples/hello_fixed.png "all characters somewhat distinguishable")
 
 ## What does the name mean?
 
