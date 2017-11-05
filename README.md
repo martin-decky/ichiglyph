@@ -36,6 +36,8 @@ As with Brainfuck itself and all its variants and derivatives, the purpose is
 mostly just to have fun. However, Ichiglyph programs could be used to
 demonstrate that certain fonts are unsuitable for rendering source code.
 
+![I and l indistinguishable](examples/hello.png "I and l indistinguishable")
+
 ## What does the name mean?
 
 **Ichi** means **one** in Japanese. **Glyph** is an elemental symbol within an
