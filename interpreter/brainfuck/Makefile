@@ -41,7 +41,12 @@ CFLAGS = -O$(OPTIMIZATION) -std=gnu99 -Wall -Wextra -Werror \
 OBJECTS := $(addsuffix .o,$(basename $(SOURCES)))
 DEPENDS := $(addsuffix .d,$(basename $(SOURCES)))
 
+.PHONY: all clean
+
 all: $(BINARY)
+
+clean:
+	rm -f $(OBJECTS) $(DEPENDS) $(BINARY)
 
 -include $(DEPENDS)
 
@@ -50,6 +55,3 @@ $(BINARY): $(OBJECTS)
 
 %.o: %.c
 	$(CC) -MD $(CFLAGS) -c -o $@ $<
-
-clean:
-	rm -f $(OBJECTS) $(DEPENDS) $(BINARY)
