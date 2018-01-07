@@ -26,9 +26,9 @@
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-.PHONY: all clean
-
 BINARIES = brainfuck ichiglyph bf2ig ig2bf
+
+.PHONY: all clean
 
 all: $(BINARIES)
 
