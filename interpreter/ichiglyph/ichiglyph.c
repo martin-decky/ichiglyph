@@ -196,7 +196,7 @@ static int data_bound(data_t *data, size_t dp)
 {
 	if (dp >= data->size) {
 		size_t size = dp + 1 + DATA_GRANULARITY;
-		data->data = realloc(data->data, size);
+		data->data = (uint8_t *) realloc(data->data, size);
 		if (data->data == NULL)
 			return -1;
 		
